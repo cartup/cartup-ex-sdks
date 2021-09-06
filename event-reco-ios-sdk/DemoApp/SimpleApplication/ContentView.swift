@@ -28,8 +28,8 @@ struct ContentView: View {
             .padding()
     }
     init() {
-        recoEvent()
-        //event()
+        //recoEvent()
+        event()
     }
     func event() -> Void {
         let cartup = Cartup(orgname:"Greenwallet", orgid:"Greenwallet-ABC", secretkey:"SECRET-KEY-1234", domain:"greenwallet.com")
